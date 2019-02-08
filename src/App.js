@@ -41,6 +41,7 @@ const App = () => {
   return (
     <ListWrapper>
       <h1> This list is gonna be made with awesome hooks!</h1>
+      <p> This uses the useState() hook</p>
       <ul>
         {list.map(item => (
           <li key={item.id}>
